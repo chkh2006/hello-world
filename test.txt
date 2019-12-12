@@ -29,3 +29,4 @@ function newAppDistance(a, b, c, ar, br, cr, index, maxIndex){
 			var date10 = new Date().getTime();
 			console.log(distance5+","+distance52+","+distance52/distance5+"==单实例对换计算长度==="+(date10-date9));
     	}
+好像没有效果
