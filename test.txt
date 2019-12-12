@@ -1,1 +1,31 @@
 aaa
+ok 
+test
+function newAppDistance(a, b, c, ar, br, cr, index, maxIndex){
+    		var date9 = new Date().getTime();
+		
+			var distance5 = app.getDistance(a.join(",")+","+b.join(","), true);
+			var distance52 = app.getDistance(ar.join(",")+","+br.join(","), false);
+			for(var i=index; i<maxIndex; i++){
+				// app.getDistance(a.join(",")+","+b.join(","), true);
+				 app.getDistance(ar.join(",")+","+br.join(","), false);
+			 }
+			var date10 = new Date().getTime();
+			console.log(distance5+","+distance52+","+distance52/distance5+"==新app计算长度==="+(date10-date9));
+    	}
+    	
+    	function shiliduitiao(a, b, c, ar, br, cr, index, maxIndex){
+    		var date9 = new Date().getTime();
+			var line1 = getLineGeo(b, c);
+			var line2 = getLineGeo(br, cr);
+			var p1 = getPointGeo(a);
+			var p2 = getPointGeo(ar);
+			var distance5 = p1.distance(line1);
+			var distance52 = p2.distance(line2);
+			for(var i=index; i<maxIndex; i++){
+				p1.distance(line1);
+				p2.distance(line2);
+			    }
+			var date10 = new Date().getTime();
+			console.log(distance5+","+distance52+","+distance52/distance5+"==单实例对换计算长度==="+(date10-date9));
+    	}
