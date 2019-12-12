@@ -1,1 +1,13 @@
 aaa
+	function newAppDistance(a, b, c, ar, br, cr, index, maxIndex){
+    		var date9 = new Date().getTime();
+		
+			var distance5 = app.getDistance(a.join(",")+","+b.join(","), true);
+			var distance52 = app.getDistance(ar.join(",")+","+br.join(","), false);
+			for(var i=index; i<maxIndex; i++){
+				// app.getDistance(a.join(",")+","+b.join(","), true);
+				 app.getDistance(ar.join(",")+","+br.join(","), false);
+			 }
+			var date10 = new Date().getTime();
+			console.log(distance5+","+distance52+","+distance52/distance5+"==新app计算长度==="+(date10-date9));
+    	}
