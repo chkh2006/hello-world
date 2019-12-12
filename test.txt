@@ -30,3 +30,4 @@ function newAppDistance(a, b, c, ar, br, cr, index, maxIndex){
 			console.log(distance5+","+distance52+","+distance52/distance5+"==单实例对换计算长度==="+(date10-date9));
     	}
 好像没有效果
+看情况说明，能不能上传吧；
