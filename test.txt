@@ -31,3 +31,6 @@ function newAppDistance(a, b, c, ar, br, cr, index, maxIndex){
     	}
 好像没有效果
 看情况说明，能不能上传吧；
+这样继续看下能不能上去吧
+xxxx
+xxxx
